@@ -2,10 +2,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-import Home from "./pages/HomeNormal";
-import HomeAdmin from "./pages/HomeAdmin";
-import HomeUser from "./pages/HomeUser";
-import Owner from "./pages/Owner";
+import Home from "./Pages/HomeNormal";
+import HomeAdmin from "./Pages/HomeAdmin";
+import HomeUser from "./Pages/HomeUser";
+import Owner from "./Pages/Owner";
 
 // กำหนด useState สำหรับเก็บข้อมูลUsre โดยดึงข้อมูลจาก localStorage 
 export default function App () {
